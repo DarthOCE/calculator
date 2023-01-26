@@ -100,3 +100,20 @@ input[type="button"] {
     margin: 4px;
     padding: 0;
 }
+
+
+.animated-container {
+    animation: animation-name 2s;
+}
+
+@keyframes animation-name {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
